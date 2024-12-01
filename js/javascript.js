@@ -20,7 +20,11 @@ function cambio() {
         
         menu.classList.toggle("menu_on");
     }, 2);
-
+    if (boton.innerHTML == "+") {
+        boton.innerHTML = "-";
+    } else {
+        boton.innerHTML = "+";
+    }
 }
 
 function menu_off() {

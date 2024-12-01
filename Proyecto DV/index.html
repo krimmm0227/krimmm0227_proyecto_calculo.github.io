@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Desierto Verde | Inicio </title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <!------AQUI EMPIEZA LA BARRA DE NAVEGACION, ES CASI CASI EL PRINCIPIO DEL CSS---------->
+  <nav>
+    <div class="nav__bar">
+      <i class='bx bx-menu'></i>
+      <div class="logo"><a href="#">Desierto Verde</a></div>
+      <div class="nav-links">
+        <div class="sidebar-logo">
+          <span class="logo-name">Desierto Verde</span>
+          <i class='bx bx-x' ></i>
+        </div>
+        <ul class="links">
+          <li><a href="#">¿Quienes somos?</a></li>
+          <li>
+            <a href="#">Plantas</a>
+            <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+            <ul class="htmlCss-sub-menu sub-menu">
+              <li><a href="#">Arboles</a></li>
+              <li><a href="#">Cuidados</a></li>
+              <li><a href="#">Especies Nativas</a></li>
+              
+              <li class="more">
+                <span><a href="#">Mas</a>
+                <i class='bx bxs-chevron-right arrow more-arrow'></i>
+              </span>
+                <ul class="more-sub-menu sub-menu">
+                  <li><a href="#">Plantas para principantes</a></li>
+                  <li><a href="#">Plantas Utiles</a></li>
+                  <li><a href="#">Recetas</a></li>
+                  
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Agua</a>
+            <i class='bx bxs-chevron-down js-arrow arrow '></i>
+            <ul class="js-sub-menu sub-menu">
+              <li><a href="#">Lorem</a></li>
+              <li><a href="#">Lorem</a></li>
+              <li><a href="#">Lorem</a></li>
+              <li><a href="#">Doble Lorem ejje</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Clima</a></li>
+          <li><a href="#">Unetenos</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--CONTENIDO CON SWIPER DE LAS IMAGENES, ESTA MARCADO EL CSS TMB-->
+  <main>
+    <section class="main swiper mySwiper">
+      <div class="wrapper swiper-wrapper">
+        <div class="slide swiper-slide">
+          <img src="img/fondo1.jpeg" alt="" class="image" />
+          <div class="image-data">
+            <span class="text">Desierto Verde.</span>
+            <h2>
+              Tu mejor opcion
+            </h2>
+          </div>
+        </div>
+        <div class="slide swiper-slide">
+          <img src="img/fondo1.jpeg" alt="" class="image" />
+          <div class="image-data">
+            <span class="text">Desierto Verde</span>
+            <h2>
+              Termina tu servicio social con nosotros!
+            </h2>
+          </div>
+        </div>
+        <div class="slide swiper-slide">
+          <img src="img/fondo1.jpeg" alt="" class="image" />
+          <div class="image-data">
+            <span class="text">Desierto Verde</span>
+            <h2>
+              Aprende a cuidar tus plantas!
+            </h2>
+            <a href="#" class="button">Sobre Nosotros</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!---CARTAS TMB CON EL SWIPER, Q ES UN FRAMEWORK Q SIRVE PA MOVER LAS IMAGENES ASI SIN BOTONES--->
+    <h1 class="nosotros">SOBRE NOSOTROS</h1>
+    <div class="container swiper">
+      <div class="card-wrapper">
+        <ul class="card-list swiper-wrapper">
+          <li class="card-item swiper-slide">
+            <a href="#" class="card-link">
+              <img src="img/designer.jpg" alt="Card Image" class="card-image">
+              <p class="badge badge-designer">Alumnos</p>
+              <h2 class="card-title">TEXTO BAJO PREDETERMINADO,K AQUI DIGA EL SERGIO Q PONER</h2>
+              
+            </a>
+          </li>
+          <li class="card-item swiper-slide">
+            <a href="#" class="card-link">
+              <img src="img/developer.jpg" alt="Card Image" class="card-image">
+              <p class="badge badge-developer">Maestros</p>
+              <h2 class="card-title">Lorem ipsum dolor sit explicabo adipisicing elit</h2>
+              
+            </a>
+          </li>
+          <li class="card-item swiper-slide">
+            <a href="#" class="card-link">
+              <img src="img/marketer.jpg" alt="Card Image" class="card-image">
+              <p class="badge badge-marketer">Logros</p>
+              <h2 class="card-title">Lorem ipsum dolor sit explicabo adipisicing elit</h2>
+              
+            </a>
+          </li>
+          <li class="card-item swiper-slide">
+            <a href="#" class="card-link">
+              <img src="img/gamer.jpg" alt="Card Image" class="card-image">
+              <p class="badge badge-gamer">Ayudas</p>
+              <h2 class="card-title">Lorem ipsum dolor sit explicabo adipisicing elit</h2>
+              
+            </a>
+          </li>
+          <li class="card-item swiper-slide">
+            <a href="#" class="card-link">
+              <img src="img/editor.jpg" alt="Card Image" class="card-image">
+              <p class="badge badge-editor">Metas</p>
+              <h2 class="card-title">Lorem ipsum dolor sit explicabo adipisicing elit</h2>
+              
+            </a>
+          </li>
+        </ul>
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-slide-button swiper-button-prev"></div>
+        <div class="swiper-slide-button swiper-button-next"></div>
+      </div>
+    </div>
+    <!-----LAS PREGUNTAS Q BAJAN, SE ME OLVIDO COMO SE LLAMAN JAJAJJAJ (ACORDEON SEGUN PERO AJA)----------->
+    <h1 class="nosotros">PREGUNTAS FRECUENTES</h1>
+    <div class="accordion">
+        <div class="accordion-content">
+            <header>
+                <span class="title">¿Que es Desierto Verde?</span>
+                <i class="fa-solid fa-plus"></i>
+            </header>
+
+            <p class="description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus nobis ut perspiciatis minima quidem nisi, obcaecati, delectus consequatur fuga nostrum iusto ipsam ducimus quibusdam possimus. Maiores non enim numquam voluptatem?
+            </p>
+        </div>
+
+        <div class="accordion-content">
+            <header>
+                <span class="title">¿Cuando tengo que asistir?</span>
+                <i class="fa-solid fa-plus"></i>
+            </header>
+
+            <p class="description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus nobis ut perspiciatis minima quidem nisi, obcaecati, delectus consequatur fuga nostrum iusto ipsam ducimus quibusdam possimus. Maiores non enim numquam voluptatem?
+            </p>
+        </div>
+        <div class="accordion-content">
+            <header>
+                <span class="title">¿Como me registro?</span>
+                <i class="fa-solid fa-plus"></i>
+            </header>
+
+            <p class="description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus nobis ut perspiciatis minima quidem nisi, obcaecati, delectus consequatur fuga nostrum iusto ipsam ducimus quibusdam possimus. Maiores non enim numquam voluptatem?
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto neque, sed inventore illum ut quis ducimus deleniti temporibus maiores? At nisi sed pariatur cupiditate quidem quod adipisci aut, eos quis minima voluptates non veniam ipsam quasi architecto ducimus error eum id ab, suscipit doloribus, ut accusantium consequuntur voluptate! Unde, hic sed rerum officia totam id libero officiis nihil rem sequi porro labore praesentium repudiandae a blanditiis molestias nisi beatae natus! Ea, ut voluptates, natus harum nesciunt odio hic eveniet reprehenderit veritatis, possimus tempora magni soluta eaque quidem neque maxime nostrum sapiente commodi? Earum ex cumque cupiditate dicta, tempora temporibus quaerat.
+            </p>
+        </div>
+        <div class="accordion-content">
+            <header>
+                <span class="title">¿El Fernandopro77 es el mejor patron del mundo?</span>
+                <i class="fa-solid fa-plus"></i>
+            </header>
+
+            <p class="description">
+                Simon, y el que diga q no que se vaya alv jejeje
+            </p>
+        </div>
+    </div>
+    <!----------AQUI INICIA EL FOOTER, ESO RARO SON LAS IMAGENES DE ICONOS K SE SACAN EN IONICONS----------------------->
+    <footer class="footer">
+      <ul class="social-icon">
+        <li class="icon-elem">
+          <a href="" class="icon">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+        <li class="icon-elem">
+          <a href="" class="icon">
+            <ion-icon name="logo-tiktok"></ion-icon>
+          </a>
+        </li>
+        <li class="icon-elem">
+          <a href="" class="icon">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+      </ul>
+      <ul class="menu">
+        <li class="menu-elem">
+          <a href="index.html" class="menu-icon"> Inicio </a>
+        </li>
+        <li class="menu-elem">
+          <a href="" class="menu-icon"> Nosotros </a>
+        </li>
+        <li class="menu-elem">
+          <a href="" class="menu-icon"> Informacion </a>
+        </li>
+        <li class="menu-elem">
+          <a href="" class="menu-icon"> Equipo </a>
+        </li>
+        <li class="menu-elem">
+          <a href="" class="menu-icon"> Desierto Verde </a>
+        </li>
+      </ul>
+      <p class="text">2024 | Todos los derechos reservados</p>
+    </footer>
+    <!-------LOS LINKS PA CONECTARSE A LA PAGINA DE IONICONS------------>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!-- PA INICIAR EL SWIPER, YO NO LE MOVERIA-->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+    
+    <!--------EL JAVASCRIPT NO ESTA EN LA CARPETA PK EL GOOGLE NO QUIERE DETECTAR EL ARCHIVO, ASI Q ASI LO DEJAREMOS X AHORA---------->
+    <script src="js.js"></script>
+
+</body>
+</html>

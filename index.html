@@ -6,62 +6,48 @@
     <meta name="viewport" content="width=device-width">
     <title>Pagina Principal</title>
     <link href="css/estilo.css" rel="stylesheet" type="text/css" />
-
 </head>
 
 <body>
-    <header>
-        <h1 class="tituloprincipal">Campaña sobre el uso y abuso de sustencias nocivas</h1>
-
+    <!-- Barra de navegacion -->
+    <nav>
+        <h1 class="tituloprincipal">Uso y abuso de sustancias nocivas</h1>
         <h1 onclick="cambio()" id="boton" class="btn_mas">+</h1>
         <div class="menu_off" id="menu_ham">
             <a href="index.html">Inicio</a><br/>
-            <a href="contactanos.html">Contactanos</a><br/>
-            <a href="campaña.html">Campaña</a><br/>
+            <a href="preguntasfrecuentes.html">Conoce mas</a><br>
+            <a href="sobrenos.html">Sobre Nosotros</a><br/>
         </div>
-    </header>
-
-    <!-- la pagina ya va tomando forma yayy-->
-
+    </nav>
+    <!-- Parte principal -->
     <div class="background-container">
         <div class="overlay-text">
-            <h2><b>"Muchos fármacos pueden convertirse en drogas de abuso. <br/> Es decir, sustancias que generan tolerancia, dependencia y síndrome de abstinencia. <br/> Y pasan así fácilmente de un uso terapéutico a uno de tipo recreacional o adictivo." </b><br/></h2>
-            <h3><i>Miguel Rodamilans Pérez</i></h3>
+            <h2>"Las drogas no son solo una escapatoria temporal, son una condena. La única manera de ser libre es enfrentarlas y luchar por ti mismo."</h2>
+            <h3><i>Stephen King</i></h3>
         </div>
     </div>
-
-    <br/>
-
-    <h1 class="subtitulo">Informemonos</h1>
-
-    <div class="grid-container">
-        <div>
-            <h2 class="subtitulos">¿Qué son las drogas?</h2>
-            <p class="parrafos_pp">
+    <!-- Informacion sobre las drogas -->
+    <h1 class="titulo">Informemonos</h1>
+    <div class="seccion">
+        <h2 class="subtitulo_izq">¿Qué son las drogas?</h2>
+        <div class="informacion">
+            <p class="texto">
                 Las drogas son sustancias que afectan el cuerpo o la mente. Pueden ser legales, como el alcohol y los medicamentos, o ilegales, como la cocaína y la heroína. Se usan con fines recreativos, medicinales o terapéuticos. El consumo de drogas puede causar
                 adicción y tener graves consecuencias para la salud.
             </p>
-        </div>
-        <div>
-            <img src="img/drogas.jpg" class="imagenesprincipales">
+            <img src="img/drogas.jpg">
         </div>
     </div>
-    <div class="grid-container">
-        <div>
-            <h2 class="subtitulos">¿Cuales son los problemas comunes?</h2>
-            <p class="parrafos_pp">
+    <div class="seccion">
+        <h2 class="subtitulo_der">¿Por que las drogas <br/> causan varios problemas?</h2>
+        <div class="informacion">
+            <img src="img/tiposd.jpg">
+            <p class="texto">
                 Existen muchos problemas acerca de este tema, mayormente en las escuelas que es donde estamos enfocandonos, como por ejemplo: Bullying por no drogarse, la propagación, desinformación, no detectar cuando se consumen, facilidad para obtener drogas, entre
                 muchas otras cosas.
             </p>
         </div>
-        <div>
-            <img src="img/drogas.jpg" class="imagenesprincipales">
-        </div>
     </div>
-
-
-
-
     <script src="js/javascript.js "></script>
 
 </body>
